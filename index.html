@@ -1,0 +1,32 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bower/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bower/animate.css/animate.css">
+	<script src="bower/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>Hello! This is Dog!</h2>
+		<div class="animated fadeIN">
+			<h3>Hello Dog! This is Magda!</h3>
+		<div>
+		<div id="dog2" class="">
+			<h3>Are you food?!</h3>
+		<div>
+	</div>
+
+	
+	<script type="text/javascript">
+		var fn = function(tekst) {
+			$('#magda').html(tekst);
+		};
+	
+		$(window).load(function() {
+			setTimeout(function() {
+				$('#dog2').addClass('animated bounceInLeft');
+			}, 2000);
+			
+		});
+	</script>
+</body>
+</html>
